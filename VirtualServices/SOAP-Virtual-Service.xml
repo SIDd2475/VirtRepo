@@ -21,9 +21,9 @@
  <soapenv:Header/>
  <soapenv:Body>
  <sam:login>
- <username>Login</username>
+ <username>Login445444</username>
  <password>Login12345sidddd</password>
- <password1>Login1234</password1>
+ <password1>Login123444553</password1>
  </sam:login>
  </soapenv:Body>
 </soapenv:Envelope>]]></con:request>
