@@ -13,7 +13,7 @@
       <con:operation>login</con:operation>
       <con:request name="Test Request - login" outgoingWss="" incomingWss="" id="b31e969b-ab80-43ea-93d4-f77a6ecd07c2" defaultOutgoingWss="" defaultIncomingWss="">
         <con:settings>
-          <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;entry key="Accept" value="application/json" xmlns="http://eviware.com/soapui/config"/></con:setting>
+          <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;con:entry key="Accept" value="application/json" xmlns:con="http://eviware.com/soapui/config"/></con:setting>
         </con:settings>
         <con:encoding>UTF-8</con:encoding>
         <con:endpoint>http://127.0.0.1:8083/mockServiceSoapBinding</con:endpoint>
@@ -23,6 +23,7 @@
  <sam:login>
  <username>Login</username>
  <password>Login123</password>
+ <password1>Login1234</password1>
  </sam:login>
  </soapenv:Body>
 </soapenv:Envelope>]]></con:request>
