@@ -24,7 +24,8 @@
  <username>Login2</username>
   <username1>Login1221</username1>
  <password>Login</password>
- <password1>Login1234</password1>
+ <password1>L</password1>
+ <password2>ITs</password2>
  </sam:login>
  </soapenv:Body>
 </soapenv:Envelope>]]></con:request>
