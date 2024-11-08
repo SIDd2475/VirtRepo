@@ -21,9 +21,11 @@
  <soapenv:Header/>
  <soapenv:Body>
  <sam:login>
- <username>Login445444</username>
- <password>Login12345sidddd</password>
- <password1>Login123444553</password1>
+ <username>Login2</username>
+  <username1>Login1221</username1>
+ <password>Login</password>
+ <password1>L</password1>
+ <password2>ITs</password2>
  </sam:login>
  </soapenv:Body>
 </soapenv:Envelope>]]></con:request>
