@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:operation xmlns:con="http://eviware.com/soapui/config" action="http://www.webserviceX.NET/ConversionRate" anonymous="optional" bindingOperationName="ConversionRate" id="c6fc9ca1-e9e7-4ae3-9f90-5ed6be8c23f1" inputName="" isOneWay="false" name="ConversionRate" receivesAttachments="false" sendsAttachments="false" type="Request-Response">
+<con:operation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config" action="http://www.webserviceX.NET/ConversionRate" anonymous="optional" bindingOperationName="ConversionRate" id="c6fc9ca1-e9e7-4ae3-9f90-5ed6be8c23f1" inputName="" isOneWay="false" name="ConversionRate" receivesAttachments="false" sendsAttachments="false" type="Request-Response">
   <con:settings>
     <con:setting id="3e5be7d3-4239-4c3c-9f65-e105ad7a6952fileName">ConversionRate</con:setting>
     <con:setting id="c6fc9ca1-e9e7-4ae3-9f90-5ed6be8c23f1fileName">ConversionRate</con:setting>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:operation xmlns:con="http://eviware.com/soapui/config" action="http://www.soapui.org/sample/login" bindingOperationName="login" id="ab916bf8-dd24-4ce4-9be4-3947dc28025e" inputName="" isOneWay="false" name="login" receivesAttachments="false" sendsAttachments="false" type="Request-Response">
+<con:operation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config" action="http://www.soapui.org/sample/login" bindingOperationName="login" id="ab916bf8-dd24-4ce4-9be4-3947dc28025e" inputName="" isOneWay="false" name="login" receivesAttachments="false" sendsAttachments="false" type="Request-Response">
   <con:settings>
     <con:setting id="728cfde6-25de-45ec-805a-c4905d874219fileName">login</con:setting>
     <con:setting id="ab916bf8-dd24-4ce4-9be4-3947dc28025efileName">login</con:setting>

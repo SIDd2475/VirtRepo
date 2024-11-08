@@ -4,7 +4,7 @@
     <con:setting id="8b4877da-9c17-4d74-baf9-2881747b6a79fileName">http%3A%2F%2Flocalhost%3A8084</con:setting>
     <con:setting id="3179efc0-b5d6-4f88-b986-8ef0ce97a8f3fileName">http%3A%2F%2Flocalhost%3A8084</con:setting>
   </con:settings>
-  <con:definitionCache rootPart="" type="TEXT"/>
+  <con:definitionCache type="TEXT"/>
   <con:endpoints>
     <con:endpoint>http://localhost:8084</con:endpoint>
   </con:endpoints>
