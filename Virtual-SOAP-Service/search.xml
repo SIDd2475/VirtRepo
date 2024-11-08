@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:mockOperation xmlns:con="http://eviware.com/soapui/config" name="search" interface="ServiceSoapBinding" operation="search" id="66b02538-a90e-4a8f-bdff-cbeb6ba7426e">
+<con:mockOperation xmlns:con="http://eviware.com/soapui/config" id="66b02538-a90e-4a8f-bdff-cbeb6ba7426e" interface="ServiceSoapBinding" name="search" operation="search">
   <con:settings>
     <con:setting id="760722f9-0d4a-44b6-b297-e16095df6ed6fileName">search</con:setting>
     <con:setting id="66b02538-a90e-4a8f-bdff-cbeb6ba7426efileName">search</con:setting>
   </con:settings>
+  <con:defaultResponse>Search Response</con:defaultResponse>
+  <con:dispatchStyle>SCRIPT</con:dispatchStyle>
+  <con:dispatchConfig/>
   <con:dispatchPath>def groovyUtils = new com.eviware.soapui.support.GroovyUtils( context )
 def holder = groovyUtils.getXmlHolder( mockRequest.requestContent )
 
@@ -33,12 +36,10 @@ return "Unknown Response"
 
 
 return "Search Response"</con:dispatchPath>
-  <con:dispatchStyle>SCRIPT</con:dispatchStyle>
-  <con:defaultResponse>Search Response</con:defaultResponse>
   <con:dispatchXPath/>
   <con:parameterDispatcherRuleContainer/>
   <con:routeScript/>
-  <con:response name="Search Response" encoding="UTF-8" httpResponseStatus="200" id="2eb8e504-c8e9-4a51-ad32-c694000fad08" dataSource="">
+  <con:response dataSource="" encoding="UTF-8" httpResponseStatus="200" id="2eb8e504-c8e9-4a51-ad32-c694000fad08" name="Search Response">
     <con:settings/>
     <con:script>context.item4description = Math.random() > 0.9 ? "garbage" : "Item nr 4"</con:script>
     <con:responseContent><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:sam="http://www.soapui.org/sample/">
@@ -77,7 +78,7 @@ return "Search Response"</con:dispatchPath>
 </soapenv:Envelope>]]></con:responseContent>
     <con:wsaConfig mustUnderstand="NONE" version="200508"/>
   </con:response>
-  <con:response name="Invalid Session Id Fault" encoding="UTF-8" httpResponseStatus="200" id="e16fce67-e46e-4193-8dfe-1dddd957f41b" dataSource="">
+  <con:response dataSource="" encoding="UTF-8" httpResponseStatus="200" id="e16fce67-e46e-4193-8dfe-1dddd957f41b" name="Invalid Session Id Fault">
     <con:settings/>
     <con:responseContent><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
  <soapenv:Body>
@@ -89,7 +90,7 @@ return "Search Response"</con:dispatchPath>
 </soapenv:Envelope>]]></con:responseContent>
     <con:wsaConfig mustUnderstand="NONE" version="200508"/>
   </con:response>
-  <con:response name="Item 1 Response" encoding="UTF-8" httpResponseStatus="200" id="82256d22-40aa-474e-8269-3893a805b221" dataSource="">
+  <con:response dataSource="" encoding="UTF-8" httpResponseStatus="200" id="82256d22-40aa-474e-8269-3893a805b221" name="Item 1 Response">
     <con:settings/>
     <con:script>context.item4description = Math.random() > 0.9 ? "garbage" : "Item nr 4"</con:script>
     <con:responseContent><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:sam="http://www.soapui.org/sample/">
@@ -110,7 +111,7 @@ return "Search Response"</con:dispatchPath>
 </soapenv:Envelope>]]></con:responseContent>
     <con:wsaConfig mustUnderstand="NONE" version="200508"/>
   </con:response>
-  <con:response name="Item 2 Response" encoding="UTF-8" httpResponseStatus="200" id="4cf916d0-74b5-4db2-84e8-17f1529371d2" dataSource="">
+  <con:response dataSource="" encoding="UTF-8" httpResponseStatus="200" id="4cf916d0-74b5-4db2-84e8-17f1529371d2" name="Item 2 Response">
     <con:settings/>
     <con:script>context.item4description = Math.random() > 0.9 ? "garbage" : "Item nr 4"</con:script>
     <con:responseContent><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:sam="http://www.soapui.org/sample/">
@@ -130,7 +131,7 @@ return "Search Response"</con:dispatchPath>
 </soapenv:Envelope>]]></con:responseContent>
     <con:wsaConfig mustUnderstand="NONE" version="200508"/>
   </con:response>
-  <con:response name="Item 3 Response" encoding="UTF-8" httpResponseStatus="200" id="74bc0597-c1aa-420d-adb9-02314c5fb3b9" dataSource="">
+  <con:response dataSource="" encoding="UTF-8" httpResponseStatus="200" id="74bc0597-c1aa-420d-adb9-02314c5fb3b9" name="Item 3 Response">
     <con:settings/>
     <con:script>context.item4description = Math.random() > 0.9 ? "garbage" : "Item nr 4"</con:script>
     <con:responseContent><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:sam="http://www.soapui.org/sample/">
@@ -150,7 +151,7 @@ Impress the strags with this amazing cloth!</description>
 </soapenv:Envelope>]]></con:responseContent>
     <con:wsaConfig mustUnderstand="NONE" version="200508"/>
   </con:response>
-  <con:response name="Item 4 Response" encoding="UTF-8" httpResponseStatus="200" id="c144232e-63e4-4f11-95c0-2982371b474e" dataSource="">
+  <con:response dataSource="" encoding="UTF-8" httpResponseStatus="200" id="c144232e-63e4-4f11-95c0-2982371b474e" name="Item 4 Response">
     <con:settings/>
     <con:script>context.item4description = Math.random() > 0.9 ? "garbage" : "Item nr 4"</con:script>
     <con:responseContent><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:sam="http://www.soapui.org/sample/">
@@ -170,7 +171,7 @@ Impress the strags with this amazing cloth!</description>
 </soapenv:Envelope>]]></con:responseContent>
     <con:wsaConfig mustUnderstand="NONE" version="200508"/>
   </con:response>
-  <con:response name="Item 5 Response" encoding="UTF-8" httpResponseStatus="200" id="5565cc3f-bee8-435b-a4a2-bbade0225455" dataSource="">
+  <con:response dataSource="" encoding="UTF-8" httpResponseStatus="200" id="5565cc3f-bee8-435b-a4a2-bbade0225455" name="Item 5 Response">
     <con:settings/>
     <con:script>context.item4description = Math.random() > 0.9 ? "garbage" : "Item nr 4"</con:script>
     <con:responseContent><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:sam="http://www.soapui.org/sample/">
@@ -189,7 +190,7 @@ Impress the strags with this amazing cloth!</description>
 </soapenv:Envelope>]]></con:responseContent>
     <con:wsaConfig mustUnderstand="NONE" version="200508"/>
   </con:response>
-  <con:response name="Search Fault Response" encoding="UTF-8" httpResponseStatus="200" id="6b5f1c62-fec4-4199-ada3-b4e1f02f4938" dataSource="">
+  <con:response dataSource="" encoding="UTF-8" httpResponseStatus="200" id="6b5f1c62-fec4-4199-ada3-b4e1f02f4938" name="Search Fault Response">
     <con:settings/>
     <con:script>context.item4description = Math.random() > 0.9 ? "garbage" : "Item nr 4"</con:script>
     <con:responseContent><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:sam="http://www.soapui.org/sample/">
@@ -206,7 +207,7 @@ Impress the strags with this amazing cloth!</description>
 </soapenv:Envelope>]]></con:responseContent>
     <con:wsaConfig mustUnderstand="NONE" version="200508"/>
   </con:response>
-  <con:response name="Unknown Response" encoding="UTF-8" httpResponseStatus="200" id="9c2cece5-95eb-4c3f-8d72-cb5efb89c4e0" dataSource="">
+  <con:response dataSource="" encoding="UTF-8" httpResponseStatus="200" id="9c2cece5-95eb-4c3f-8d72-cb5efb89c4e0" name="Unknown Response">
     <con:settings/>
     <con:responseContent><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
  <soapenv:Body>
@@ -218,7 +219,7 @@ Impress the strags with this amazing cloth!</description>
 </soapenv:Envelope>]]></con:responseContent>
     <con:wsaConfig mustUnderstand="NONE" version="200508"/>
   </con:response>
-  <con:response name="WildCard Response" encoding="UTF-8" httpResponseStatus="200" id="e0d08139-14af-47a0-bdfb-9e160b8bab57" dataSource="">
+  <con:response dataSource="" encoding="UTF-8" httpResponseStatus="200" id="e0d08139-14af-47a0-bdfb-9e160b8bab57" name="WildCard Response">
     <con:settings/>
     <con:script>context.item4description = Math.random() > 0.9 ? "garbage" : "Item nr 4"</con:script>
     <con:responseContent><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:sam="http://www.soapui.org/sample/">
@@ -262,5 +263,4 @@ Impress the strags with this amazing cloth!</description>
 </soapenv:Envelope>]]></con:responseContent>
     <con:wsaConfig mustUnderstand="NONE" version="200508"/>
   </con:response>
-  <con:dispatchConfig/>
 </con:mockOperation>

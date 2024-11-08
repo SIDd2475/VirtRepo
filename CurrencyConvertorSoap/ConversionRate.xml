@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:operation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config" id="c6fc9ca1-e9e7-4ae3-9f90-5ed6be8c23f1" isOneWay="false" action="http://www.webserviceX.NET/ConversionRate" name="ConversionRate" bindingOperationName="ConversionRate" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional">
+<con:operation xmlns:con="http://eviware.com/soapui/config" action="http://www.webserviceX.NET/ConversionRate" anonymous="optional" bindingOperationName="ConversionRate" id="c6fc9ca1-e9e7-4ae3-9f90-5ed6be8c23f1" inputName="" isOneWay="false" name="ConversionRate" receivesAttachments="false" sendsAttachments="false" type="Request-Response">
   <con:settings>
     <con:setting id="3e5be7d3-4239-4c3c-9f65-e105ad7a6952fileName">ConversionRate</con:setting>
     <con:setting id="c6fc9ca1-e9e7-4ae3-9f90-5ed6be8c23f1fileName">ConversionRate</con:setting>
@@ -24,7 +24,7 @@
       <con:authType>No Authorization</con:authType>
     </con:credentials>
     <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
-    <con:wsaConfig mustUnderstand="NONE" version="200508" action="http://www.webserviceX.NET/ConversionRate"/>
+    <con:wsaConfig action="http://www.webserviceX.NET/ConversionRate" mustUnderstand="NONE" version="200508"/>
     <con:wsrmConfig version="1.2"/>
     <con:environmentSpec>
       <con:entry environmentId="aaa8e0b8-c982-402f-aabc-53999ad72736">

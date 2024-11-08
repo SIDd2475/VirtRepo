@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:restMockAction xmlns:con="http://eviware.com/soapui/config" name="logout" method="GET" resourcePath="/logout" id="749e862a-4fcf-4ea9-90f3-a554a0aa90ed">
+<con:restMockAction xmlns:con="http://eviware.com/soapui/config" id="749e862a-4fcf-4ea9-90f3-a554a0aa90ed" method="GET" name="logout" resourcePath="/logout">
   <con:settings>
     <con:setting id="22685409-faf3-4411-8195-d31f6ef6c43efileName">logout</con:setting>
     <con:setting id="749e862a-4fcf-4ea9-90f3-a554a0aa90edfileName">logout</con:setting>
   </con:settings>
-  <con:defaultResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">OK Response</con:defaultResponse>
+  <con:defaultResponse>OK Response</con:defaultResponse>
   <con:dispatchStyle>SCRIPT</con:dispatchStyle>
   <con:dispatchConfig/>
   <con:dispatchPath>def queryString = mockRequest.getRequest().getQueryString()
@@ -34,11 +34,11 @@ return "Ok Response"</con:dispatchPath>
   <con:dispatchXPath/>
   <con:parameterDispatcherRuleContainer/>
   <con:routeScript/>
-  <con:response name="OK Response" id="ae32ece2-d6c6-410c-bb18-2252254dfc24" httpResponseStatus="200" mediaType="application/json" dataSource="">
+  <con:response dataSource="" httpResponseStatus="200" id="ae32ece2-d6c6-410c-bb18-2252254dfc24" mediaType="application/json" name="OK Response">
     <con:settings/>
     <con:responseContent>{"Successfully logged out session" : "${sessioninfo}"}</con:responseContent>
   </con:response>
-  <con:response name="Invalid Session Id Fault" id="4d87a843-e384-450c-b878-7deff8ef7469" httpResponseStatus="404" mediaType="application/json" dataSource="">
+  <con:response dataSource="" httpResponseStatus="404" id="4d87a843-e384-450c-b878-7deff8ef7469" mediaType="application/json" name="Invalid Session Id Fault">
     <con:settings/>
     <con:responseContent>{"Failed" : "Invalid Session Id"}</con:responseContent>
   </con:response>

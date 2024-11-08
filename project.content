@@ -9,8 +9,8 @@ http%3A%2F%2Flocalhost%3A8084\logout.xml
 http%3A%2F%2Flocalhost%3A8084\search.xml
 VirtualServices\SOAP-Virtual-Service.xml
 VirtualServices\REST-Virtual-Service.xml
-Virtual-SOAP-Service\buy.xml
 Virtual-SOAP-Service\ConversionRate.xml
+Virtual-SOAP-Service\buy.xml
 Virtual-SOAP-Service\login.xml
 Virtual-SOAP-Service\logout.xml
 Virtual-SOAP-Service\search.xml

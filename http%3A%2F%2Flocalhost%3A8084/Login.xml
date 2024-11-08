@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:resource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config" name="Login" path="/login/" id="a068ecac-f831-4392-91d4-db0400309c67">
+<con:resource xmlns:con="http://eviware.com/soapui/config" id="a068ecac-f831-4392-91d4-db0400309c67" name="Login" path="/login/">
   <con:settings>
     <con:setting id="ff930a3e-8923-4842-9db0-3e7356e664f9fileName">Login</con:setting>
     <con:setting id="a068ecac-f831-4392-91d4-db0400309c67fileName">Login</con:setting>
@@ -10,26 +10,26 @@
       <con:value/>
       <con:style>QUERY</con:style>
       <con:default/>
-      <con:path xsi:nil="true"/>
-      <con:description xsi:nil="true"/>
+      <con:path/>
+      <con:description/>
     </con:parameter>
     <con:parameter>
       <con:name>password</con:name>
       <con:value/>
       <con:style>QUERY</con:style>
       <con:default/>
-      <con:path xsi:nil="true"/>
-      <con:description xsi:nil="true"/>
+      <con:path/>
+      <con:description/>
     </con:parameter>
     <con:parameter>
       <con:name>sample</con:name>
       <con:value/>
       <con:style>HEADER</con:style>
       <con:default/>
-      <con:description xsi:nil="true"/>
+      <con:description/>
     </con:parameter>
   </con:parameters>
-  <con:method name="Login" id="9f81848b-38a5-48c3-996b-7fca713c8d54" method="GET">
+  <con:method id="9f81848b-38a5-48c3-996b-7fca713c8d54" method="GET" name="Login">
     <con:settings/>
     <con:parameters>
       <con:parameter required="true">
@@ -46,109 +46,109 @@
       </con:parameter>
     </con:parameters>
     <con:representation type="RESPONSE">
-      <con:mediaType xsi:nil="true"/>
+      <con:mediaType/>
       <con:status>0</con:status>
       <con:params/>
       <con:element>data</con:element>
     </con:representation>
     <con:representation type="FAULT">
-      <con:mediaType xsi:nil="true"/>
+      <con:mediaType/>
       <con:status>500 405</con:status>
       <con:params/>
       <con:element>data</con:element>
     </con:representation>
     <con:representation type="FAULT">
-      <con:mediaType xsi:nil="true"/>
+      <con:mediaType/>
       <con:status>500</con:status>
       <con:params/>
       <con:element>data</con:element>
     </con:representation>
     <con:representation type="FAULT">
-      <con:mediaType xsi:nil="true"/>
+      <con:mediaType/>
       <con:status>500</con:status>
       <con:params/>
       <con:element>data</con:element>
     </con:representation>
     <con:representation type="FAULT">
-      <con:mediaType xsi:nil="true"/>
+      <con:mediaType/>
       <con:status>500</con:status>
       <con:params/>
       <con:element>data</con:element>
     </con:representation>
     <con:representation type="FAULT">
-      <con:mediaType xsi:nil="true"/>
+      <con:mediaType/>
       <con:status>500</con:status>
       <con:params/>
       <con:element>data</con:element>
     </con:representation>
     <con:representation type="FAULT">
-      <con:mediaType xsi:nil="true"/>
+      <con:mediaType/>
       <con:status>500</con:status>
       <con:params/>
       <con:element>data</con:element>
     </con:representation>
     <con:representation type="FAULT">
-      <con:mediaType xsi:nil="true"/>
+      <con:mediaType/>
       <con:status>500</con:status>
       <con:params/>
       <con:element>data</con:element>
     </con:representation>
     <con:representation type="FAULT">
-      <con:mediaType xsi:nil="true"/>
+      <con:mediaType/>
       <con:status>500</con:status>
       <con:params/>
       <con:element>data</con:element>
     </con:representation>
     <con:representation type="FAULT">
-      <con:mediaType xsi:nil="true"/>
+      <con:mediaType/>
       <con:status>500</con:status>
       <con:params/>
       <con:element>data</con:element>
     </con:representation>
     <con:representation type="FAULT">
-      <con:mediaType xsi:nil="true"/>
+      <con:mediaType/>
       <con:status>500</con:status>
       <con:params/>
       <con:element>data</con:element>
     </con:representation>
     <con:representation type="FAULT">
-      <con:mediaType xsi:nil="true"/>
+      <con:mediaType/>
       <con:status>500</con:status>
       <con:params/>
       <con:element>data</con:element>
     </con:representation>
     <con:representation type="FAULT">
-      <con:mediaType xsi:nil="true"/>
+      <con:mediaType/>
       <con:status>500</con:status>
       <con:params/>
       <con:element>data</con:element>
     </con:representation>
     <con:representation type="FAULT">
-      <con:mediaType xsi:nil="true"/>
+      <con:mediaType/>
       <con:status>500</con:status>
       <con:params/>
       <con:element>data</con:element>
     </con:representation>
     <con:representation type="FAULT">
-      <con:mediaType xsi:nil="true"/>
+      <con:mediaType/>
       <con:status>500</con:status>
       <con:params/>
       <con:element>data</con:element>
     </con:representation>
     <con:representation type="FAULT">
-      <con:mediaType xsi:nil="true"/>
+      <con:mediaType/>
       <con:status>500</con:status>
       <con:params/>
       <con:element>data</con:element>
     </con:representation>
     <con:representation type="FAULT">
-      <con:mediaType xsi:nil="true"/>
+      <con:mediaType/>
       <con:status>500</con:status>
       <con:params/>
       <con:element>data</con:element>
     </con:representation>
     <con:representation type="FAULT">
-      <con:mediaType xsi:nil="true"/>
+      <con:mediaType/>
       <con:status>500</con:status>
       <con:params/>
       <con:element>data</con:element>
@@ -157,46 +157,46 @@
       <con:mediaType>application/json</con:mediaType>
       <con:status>401</con:status>
       <con:params/>
-      <con:element xmlns:log="http://localhost/login">log:Fault</con:element>
+      <con:element>log:Fault</con:element>
     </con:representation>
     <con:representation type="RESPONSE">
       <con:mediaType>application/json</con:mediaType>
       <con:status>200</con:status>
       <con:params/>
-      <con:element xmlns:log="http://localhost/login">log:Response</con:element>
+      <con:element>log:Response</con:element>
     </con:representation>
     <con:representation type="RESPONSE">
-      <con:mediaType xsi:nil="true"/>
+      <con:mediaType/>
       <con:status>0</con:status>
       <con:params/>
       <con:element>data</con:element>
     </con:representation>
     <con:representation type="RESPONSE">
-      <con:mediaType xsi:nil="true"/>
+      <con:mediaType/>
       <con:status>0</con:status>
       <con:params/>
       <con:element>data</con:element>
     </con:representation>
     <con:representation type="RESPONSE">
-      <con:mediaType xsi:nil="true"/>
+      <con:mediaType/>
       <con:status>0</con:status>
       <con:params/>
       <con:element>data</con:element>
     </con:representation>
     <con:representation type="FAULT">
-      <con:mediaType xsi:nil="true"/>
+      <con:mediaType/>
       <con:status>404</con:status>
       <con:params/>
       <con:element>data</con:element>
     </con:representation>
     <con:representation type="FAULT">
-      <con:mediaType xsi:nil="true"/>
+      <con:mediaType/>
       <con:status>404</con:status>
       <con:params/>
       <con:element>data</con:element>
     </con:representation>
     <con:representation type="FAULT">
-      <con:mediaType xsi:nil="true"/>
+      <con:mediaType/>
       <con:status>405</con:status>
       <con:params/>
       <con:element>data</con:element>
@@ -206,18 +206,18 @@
       <con:params/>
     </con:representation>
     <con:representation type="RESPONSE">
-      <con:mediaType xsi:nil="true"/>
+      <con:mediaType/>
       <con:status>0</con:status>
       <con:params/>
       <con:element>data</con:element>
     </con:representation>
     <con:representation type="RESPONSE">
-      <con:mediaType xsi:nil="true"/>
+      <con:mediaType/>
       <con:status>0</con:status>
       <con:params/>
       <con:element>data</con:element>
     </con:representation>
-    <con:request name="Request 1" id="d1d89c15-ac41-40aa-bb3f-215cb215078f" mediaType="application/json" postQueryString="false">
+    <con:request id="d1d89c15-ac41-40aa-bb3f-215cb215078f" mediaType="application/json" name="Request 1" postQueryString="false">
       <con:settings>
         <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;entry key="Accept" value="application/json" xmlns="http://eviware.com/soapui/config"/></con:setting>
       </con:settings>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:operation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config" action="http://www.soapui.org/sample/search" name="search" bindingOperationName="search" inputName="" isOneWay="false" receivesAttachments="false" sendsAttachments="false" type="Request-Response" id="7b85d5b1-e241-441e-a954-941f5d30cd04">
+<con:operation xmlns:con="http://eviware.com/soapui/config" action="http://www.soapui.org/sample/search" bindingOperationName="search" id="7b85d5b1-e241-441e-a954-941f5d30cd04" inputName="" isOneWay="false" name="search" receivesAttachments="false" sendsAttachments="false" type="Request-Response">
   <con:settings>
     <con:setting id="70b787ca-12f1-4b3d-8a24-d82d09b6a964fileName">search</con:setting>
     <con:setting id="7b85d5b1-e241-441e-a954-941f5d30cd04fileName">search</con:setting>
   </con:settings>
-  <con:call name="search rq" outgoingWss="" incomingWss="" id="2f385b23-34d2-4411-8286-8d8e84fc1089" defaultOutgoingWss="" defaultIncomingWss="">
+  <con:call defaultIncomingWss="" defaultOutgoingWss="" id="2f385b23-34d2-4411-8286-8d8e84fc1089" incomingWss="" name="search rq" outgoingWss="">
     <con:settings>
       <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
     </con:settings>
@@ -20,9 +20,9 @@
  </soapenv:Body>
 </soapenv:Envelope>]]></con:request>
     <con:credentials>
-      <con:username xsi:nil="true"/>
-      <con:password xsi:nil="true"/>
-      <con:domain xsi:nil="true"/>
+      <con:username/>
+      <con:password/>
+      <con:domain/>
       <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
       <con:authType>No Authorization</con:authType>
     </con:credentials>

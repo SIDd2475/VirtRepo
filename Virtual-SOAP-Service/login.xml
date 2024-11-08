@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:mockOperation xmlns:con="http://eviware.com/soapui/config" name="login" interface="ServiceSoapBinding" operation="login" id="b5d0feb5-3691-4816-bb19-f6e917031629">
+<con:mockOperation xmlns:con="http://eviware.com/soapui/config" id="b5d0feb5-3691-4816-bb19-f6e917031629" interface="ServiceSoapBinding" name="login" operation="login">
   <con:settings>
     <con:setting id="5352c0ea-b158-4d68-8cd0-258d46eef13ffileName">login</con:setting>
     <con:setting id="b5d0feb5-3691-4816-bb19-f6e917031629fileName">login</con:setting>
   </con:settings>
+  <con:defaultResponse>Ok Response</con:defaultResponse>
+  <con:dispatchStyle>SCRIPT</con:dispatchStyle>
+  <con:dispatchConfig/>
   <con:dispatchPath>def groovyUtils = new com.eviware.soapui.support.GroovyUtils( context )
 def holder = groovyUtils.getXmlHolder( mockRequest.requestContent )
 
@@ -26,12 +29,10 @@ context.setProperty( sessionid, sum )
 
 requestContext.sessionid = sessionid
 return "Ok Response"</con:dispatchPath>
-  <con:dispatchStyle>SCRIPT</con:dispatchStyle>
-  <con:defaultResponse>Ok Response</con:defaultResponse>
   <con:dispatchXPath/>
   <con:parameterDispatcherRuleContainer/>
   <con:routeScript/>
-  <con:response name="Ok Response" encoding="UTF-8" httpResponseStatus="200" id="ea42e23f-c9a3-42ad-bbd5-b5d7a32c5349" dataSource="">
+  <con:response dataSource="" encoding="UTF-8" httpResponseStatus="200" id="ea42e23f-c9a3-42ad-bbd5-b5d7a32c5349" name="Ok Response">
     <con:settings/>
     <con:responseContent><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:sam="http://www.soapui.org/sample/">
  <soapenv:Header/>
@@ -43,7 +44,7 @@ return "Ok Response"</con:dispatchPath>
 </soapenv:Envelope>]]></con:responseContent>
     <con:wsaConfig mustUnderstand="NONE" version="200508"/>
   </con:response>
-  <con:response name="Invalid Login Fault" encoding="UTF-8" httpResponseStatus="200" id="ae56072c-2aa1-40ba-aa58-b507cdf64e07" dataSource="">
+  <con:response dataSource="" encoding="UTF-8" httpResponseStatus="200" id="ae56072c-2aa1-40ba-aa58-b507cdf64e07" name="Invalid Login Fault">
     <con:settings/>
     <con:responseContent><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:sam="http://www.soapui.org/sample/">
  <soapenv:Body>
@@ -58,7 +59,7 @@ return "Ok Response"</con:dispatchPath>
 </soapenv:Envelope>]]></con:responseContent>
     <con:wsaConfig mustUnderstand="NONE" version="200508"/>
   </con:response>
-  <con:response name="Already Logged In Fault" encoding="UTF-8" httpResponseStatus="200" id="25bd1205-9996-446c-8739-cf0531d04955" dataSource="">
+  <con:response dataSource="" encoding="UTF-8" httpResponseStatus="200" id="25bd1205-9996-446c-8739-cf0531d04955" name="Already Logged In Fault">
     <con:settings/>
     <con:responseContent><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:sam="http://www.soapui.org/sample/">
  <soapenv:Body>
@@ -73,5 +74,4 @@ return "Ok Response"</con:dispatchPath>
 </soapenv:Envelope>]]></con:responseContent>
     <con:wsaConfig mustUnderstand="NONE" version="200508"/>
   </con:response>
-  <con:dispatchConfig/>
 </con:mockOperation>
